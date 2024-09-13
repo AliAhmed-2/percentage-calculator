@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 50px;
+
+
+
+
+}
+.maincontainer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(201,238,174);
+    background: radial-gradient(circle, rgba(201,238,174,1) 0%, rgba(148,233,223,1) 100%);
+    width: 50%;
+    margin: auto;
+margin-top: 40px;
+height: 60vh;
+}
+.totalmarks{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+.obtainmarks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    font-family:monospace;
+    font-size: 40px;
+
+    
+}
+input{
+    width: 300px;
+    border-radius: 15px;
+    height: 40px;
+
+}
+button{
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+
+    background-color: transparent;
+    margin-left: 33%;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family:monospace;
+}
+button:hover{
+
+    background-color: black;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}
+#result{
+  
+    color: white;
+    height: 50px;
+    width: 100px;
+}
